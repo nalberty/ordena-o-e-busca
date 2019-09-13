@@ -58,8 +58,8 @@ void bubble(int vetor[MAX]) // ordena o vetor usando busca binária
         }
     }
 }
-
-int binary_sort(int vetor[], int chave, int n)
+ 
+int binary_sort(int vetor[], int chave, int n) // faz uma busca binária num vetor ordenado
 {
     int inf, sup, meio;
     inf = 0;
